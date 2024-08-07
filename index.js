@@ -11,6 +11,7 @@ import newsRoutes from "./Routes/newsRoutes.js"
 
 dotenv.config();
 
+
 const port = 65003;
 const app = express();
 app.use(cors());
